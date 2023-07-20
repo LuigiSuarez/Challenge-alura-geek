@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8f262e966.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/registroProducto.css">
+    
+    <title>Alura Geek</title>
+</head>
+<body>
+    
+    <header class="nav">
+        
+        <a href="index.html"><img class="nav__logo" src="images/logo.svg" alt=""></a>
+
+            <div class="busqueda">
+                <input class="busqueda__input" type="text" placeholder="Que deseas buscar?">
+                <i class="fa-solid fa-magnifying-glass busqueda__icon"></i>
+            </div>
+      
+        <a class="toogle" href=""><i class="fa-solid fa-magnifying-glass busqueda__icon"></i></a>
+       
+       
+
+    </header>
+
+
+    <form class="registro__producto">
+        <h1 class="producto__titulo">Registrar Producto</h1>
+        <div class="campo__contenedor">
+            <input class="campo__input" type="text" required>
+            
+            <label class="campo__label">
+                <span class="campo__texto">URL de la imagen Producto</span>
+            </label>
+        </div>
+       
+        <div class="campo__contenedor">
+            <input class="campo__input" type="text" required>
+            <label class="campo__label">
+                <span class="campo__texto">Categoria</span>
+            </label>
+        </div>
+       
+        <div class="campo__contenedor">
+            <input class="campo__input" type="text" required>
+            <label class="campo__label">
+                <span class="campo__texto">Nombre Producto</span>
+            </label>
+        </div>
+       
+        <div class="campo__contenedor">
+            <input class="campo__input" type="text" required>
+            <label class="campo__label">
+                <span class="campo__texto">Precio del Producto</span>
+            </label>
+        </div>
+
+        <div class="campo__contenedor campo__contenedor--area">
+            <textarea class="campo__input campo__input--area" name="" id="" cols="30" rows="10" required></textarea>
+            <label class="campo__label">
+                <span class="campo__texto">Descripcion del Producto</span>
+            </label>
+        </div>
+
+        <button type="submit" class="form_button">Registrar Producto</button>
+        
+       
+    </form>
+    
+
+    
+    <section class="footer">
+        
+        <div class="footer__container">
+            <div class="footer__izquierda">
+                <div class="footer__logo">
+                    <a href="#"><img src="images/logo.svg" alt="" srcset=""></a>
+                </div>
+                <div class="menu__container">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="" class="menu__link"></a>Quienes somos</li>
+                        <li class="menu__item"><a href="" class="menu__link"></a>Politica de Privacidad</li>
+                        <li class="menu__item"><a href="" class="menu__link"></a>Programa de fidelidad</li>
+                        <li class="menu__item"><a href="" class="menu__link"></a>Nuestras tiendas</li>
+                        <li class="menu__item"><a href="" class="menu__link"></a>Quiero ser franquiciado</li>
+                        <li class="menu__item"><a href="" class="menu__link"></a>Anuncie aqui</li>
+                    </ul>
+                </div>
+            </div>
+            
+      
+            <div class="formulario>
+                <p class="formulario__texto">Hable con Nosotros</p>
+                
+                <input class="formulario__input" name="nombre" type="text" placeholder="Nombre">
+                <textarea class="formulario__input formulario__input--texto" name="" id="" cols="30" rows="10" placeholder="Escribe tu Mensaje"></textarea>
+         
+                <a class="formulario__button" href="">enviar</a>
+            </div>
+        </div>
+   
+
+    </section>
+
+    <script src="js/scriptStarWars.js"></script>
+    <script src="js/scriptConsola.js"></script>
+    <script src="js/scriptOtros.js"></script>
+    <script src="js/scriptBarra.js"></script>
+    <!-- <script src="js/footer.js"></script> -->
+</body>
+</html>

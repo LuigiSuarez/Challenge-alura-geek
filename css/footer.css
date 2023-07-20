@@ -1,0 +1,152 @@
+.footer{
+    background-color: var(--color-fondo-gris);
+}
+.footer__container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.menu__container{
+    width: 40%;
+}
+.footer__logo{
+    width: 40%;
+}
+.footer__logo a{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer__logo img{
+    width: 60%;
+
+}
+.menu{
+    width: 100%;
+    font-size: 1em;
+    line-height: 2em;
+    margin-right: 0;
+}
+.formulario{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__texto{
+    color: var(--color-secundario);
+
+}
+.footer__izquierda{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.formulario__input{
+ 
+    border: none;
+    outline: none;
+    height: 3.5em;
+    margin-top: 1em;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--secundary-color);
+    padding: 1.375rem 0.5rem 0.5rem;
+  
+    width: 100%;
+}
+.formulario__input--texto{
+    height: 8em;
+}
+.formulario__input::placeholder {
+    opacity: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .formulario__input:focus::placeholder {
+   
+    pointer-events: none;
+    opacity: 1;
+    transform: translateY(-100%);
+  }
+
+.formulario__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 3em;
+    width: 180px;
+    background-color: var(--color-secundario);
+    margin-top: 1em;
+    text-decoration: none;
+}
+textarea{
+    resize: none;
+}
+
+
+@media screen and (max-width: 910px) {
+
+    .footer__logo{
+        width: 90%;
+    }
+    .footer__izquierda{
+        flex-direction: column;
+        width: 50%;
+        
+    }
+    .formulario{
+        width: 80%;
+        padding-left: 50px;
+    }
+    .menu__container{
+        width: 100%;
+        height: 100%;
+    }
+    .menu{
+        width: 100%;
+        font-size: 1em;
+        line-height: 1.5em;
+        justify-content: space-around;
+    }
+   
+}
+
+@media screen and (max-width: 580px) {
+    .footer__izquierda{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .menu{
+
+        line-height: 2em;
+    
+    }
+
+    .footer__container{
+        flex-direction: column;
+        
+    }
+    .footer__logo{
+        text-align: center;
+        width: 80%;
+    }
+    .menu__container{
+        width: max-content
+    }
+    .formulario{
+        padding-left: 0;
+        padding-top: 50px;
+        width: 100%;
+    }
+   
+}

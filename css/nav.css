@@ -1,0 +1,112 @@
+.active{
+    
+    
+}
+.contenedorJs{
+    position: absolute;
+    display: flex;
+    background-color: var(--color-primario);
+    width: 80%;
+    height: 115px;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 90%;
+    min-height: 115px;
+}
+
+.nav__izquierda{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.busqueda{
+    width: 40%; 
+    background-color: var(--color-fondo-gris);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.busqueda:hover{
+    box-sizing: border-box;
+    border: 3px solid var(--color-primario);
+}
+.busqueda__input{
+    width: 85%;
+    border: none;
+    background-color: transparent;
+    padding: 0.2em;
+    margin-left: 0.5em;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.busqueda__icon{
+    display: flex;
+    align-items: center;
+    scale: 70%;
+    padding: 0.3em;
+    color: var(--color-primario);
+    margin-right: .7rem;
+    
+}
+.toogle{
+    text-decoration: none;
+    scale: 120%;
+    display: none;
+}
+
+.button__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid var(--color-primario);
+    width: 7em;
+    text-align: center;
+    height: 51px;
+    box-sizing: border-box;
+    color: var(--color-primario);
+    border-radius: 0.5rem;
+}
+
+.button__modificador{
+    background-color: white;
+}
+.button__modificado:hover{
+    background-color: var(--color-secundario);
+}
+
+.button__login:hover{
+    background-color: var(--color-fondo-oscuro);
+    color: white;
+}
+
+@media screen and (max-width: 910px) {
+   .nav__logo{
+    scale: 70%;
+    order: 1;
+   }
+    .button__login{
+        order: 2;
+        scale: 80%;
+    }
+    .busqueda{
+        display: none;
+    }
+    .toogle{
+        scale:120%;
+        display: flex;
+        order: 3;
+    }
+}

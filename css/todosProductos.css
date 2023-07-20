@@ -1,0 +1,11 @@
+.todosProductos{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 1em;
+}
+.card{
+    margin-top: 2rem;
+}

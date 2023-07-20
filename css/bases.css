@@ -1,0 +1,24 @@
+:root{
+    -font-size:62.5%;
+    --fuente-titulo: 'Open Sans', sans-serif;
+    --fuente-texto:'Montserrat', sans-serif;
+    --color-primario : #7F59FD;
+    --color-secundario : #450DFC;
+    --color-terciario: #380ACC;
+    --color-fondo-gris: rgb(248, 248, 248);
+    --color-fondo-claro:#22067D;
+    --color-fondo-oscuro:#3F2C7D;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: var(--fuente-texto);
+
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}

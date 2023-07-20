@@ -1,0 +1,52 @@
+.card{
+    max-height: max-content;
+    width: 15%;
+}
+
+.card__imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9em;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.card__titulo{
+    margin-top: .2em;
+    font-size: 1rem;
+}
+.card__precio{
+    margin-top: .2em;
+   font-size: 1rem;
+   font-weight: 700;
+}
+.card__link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-primario);
+}
+
+@media screen and (max-width: 1200px) {
+    .card{
+        max-height: max-content;
+        width: 22%;
+    }
+    .card__imagen{
+      height: 5em;
+       
+    }
+    
+    
+}
+@media screen and (max-width: 580px) {
+    .card{
+        width: 45%;
+    }
+    .card__imagen{
+      height: 5em;
+       
+    }
+    
+    
+}

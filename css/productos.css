@@ -1,0 +1,48 @@
+.productos{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+    
+}
+.productos__textos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.star-wars,.consolas,.otros{
+    max-height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 1em;
+}
+
+.productos__link{
+    text-align: start;
+    margin-top: 4em;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.productos__link::after{
+    font-family: "Font Awesome 5 Free"; /* Asegúrate de tener la fuente de Font Awesome cargada */
+    content: " \f061"; /* Código Unicode del icono arrow-right */
+    color: #a50579;
+    margin-right: 5px;
+}
+.productos__titulo{
+    text-align: start;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 580px) {
+    .star-wars,.consolas,.otros{
+        flex-wrap: wrap;
+        max-height: fit-content;
+    }
+    
+}

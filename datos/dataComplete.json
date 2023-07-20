@@ -1,0 +1,196 @@
+{
+    "images": [
+      {
+        "id": "1",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d1.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "2",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d2.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "3",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d3.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "4",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d4.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "5",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d5.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "6",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d6.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "7",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d7.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "8",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/d8.webp",
+        "categoria": "otros",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "9",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw1.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "10",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw2.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "11",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw3.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "12",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw4.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "13",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw5.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "14",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw6.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "15",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw7.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "16",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/sw8.webp",
+        "categoria": "StarWars",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "17",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c1.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "18",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c2.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "19",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c3.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "20",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c4.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "21",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c5.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "22",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c6.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "23",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c7.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      },
+      {
+        "id": "24",
+        "nombre": "Producto xyz",
+        "precio": "60.00",
+        "src": "images/c8.webp",
+        "categoria": "Consola",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultricies metus. Sed id dui tincidunt, venenatis nisi nec, tempor metus. Quisque fermentum quis risus ac lacinia. Nam egestas velit quis pharetra tincidunt. Sed elementum urna sit amet fermentum dignissim."
+      }
+    ]
+  }

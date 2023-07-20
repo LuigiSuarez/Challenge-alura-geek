@@ -1,0 +1,45 @@
+.login{
+    width: 35%;
+    min-height: min-content;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login__label{
+    text-align: center;
+    font-size: 2em + 1vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--color-primario);
+}
+.login__input{
+
+    min-height: 2em;
+    height: 4em;
+    outline: none;
+    border: solid 1px var(--color-primario);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 5px rgba(0, 0, 255, 0.1);
+}
+input.login__input[placeholder]{
+    
+    padding-left: 1rem;
+}
+
+.login__input:hover{
+    border: 2px solid var(--color-secundario);
+}
+.login__a{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-primario);
+    color: white;
+}
+
+
