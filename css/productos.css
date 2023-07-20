@@ -12,7 +12,7 @@
     width: 100%;
     justify-content: space-between;
 }
-.star-wars,.consolas,.otros{
+.StarWars,.Consola,.otros{
     max-height: max-content;
     width: 100%;
     display: flex;
@@ -40,7 +40,7 @@
 }
 
 @media screen and (max-width: 580px) {
-    .star-wars,.consolas,.otros{
+    .StarWars,.Consola,.otros{
         flex-wrap: wrap;
         max-height: fit-content;
     }
