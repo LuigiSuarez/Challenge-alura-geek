@@ -46,6 +46,6 @@ function comprobarTamanoPantalla(categoria) {
   // Event 'resize' to check for changes in the screen size
   window.addEventListener('resize', () => {
     comprobarTamanoPantalla('Consola');
-    comprobarTamanoPantalla('Otros');
-    comprobarTamanoPantalla('Star Wars');
+    comprobarTamanoPantalla('otros');
+    comprobarTamanoPantalla('StarWars');
   });
