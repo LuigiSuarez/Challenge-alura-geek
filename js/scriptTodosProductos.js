@@ -13,7 +13,7 @@ function comprobarTamanoPantalla() {
       for (let i = 0; i < productos.length; i++) {
         imagesHTML += `
           <div class="card">
-            <img class="card__imagen" src="/${productos[i].src}" alt="">
+            <img class="card__imagen" src="./${productos[i].src}" alt="">
             <p class="card__titulo">${productos[i].nombre}</p>
             <p class="card__precio">${productos[i].precio}</p>
             <a class="card__link" href="productoDetail.html?id=${productos[i].id}">Ver Producto</a>
