@@ -1,11 +1,49 @@
 .banner{
-    
+    height: 600px;
+    max-height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../images/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: background-size 0.3s ease;
+}
+
+.banner-texto__container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: end;
+    color: white;
+    width: 90%;
+    height: 90%;
+}
+.banner__titulo{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.banner__subTitulo{
+    padding-top: 1rem;
+    font-size: 1.5em;
+}
+.banner__button{
+    color: white;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
-    max-height: 400px;
     align-items: center;
-    overflow: hidden;
+    text-decoration: none;
+    background-color: var(--color-primario);
+    width: 200px;
+    height: 60px;
 }
+.banner__button:hover{
+    background-color: var(--color-secundario);
+    
+}
+
 .banner__img{
     height: auto;
      width: 100%;
